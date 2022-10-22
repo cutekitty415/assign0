@@ -109,54 +109,42 @@ header .main-container {
 }
 
 
-header .main-container .content-box, .dish-box{
+header .main-container .dish-box{
 	position: relative;
 	font-family: 'Montserrat', sans-serif;
 	color: #6B6B6B;
-	flex: 50%
+	flex: 50px;
 }  
 
-header .main-container .content-box{
-	margin: 20px;
-	width: 50%;
-	line-height: 18px;
 
-}
-
-header .main-container .content-box h3{
-	font-size: 24px;
-	padding-bottom: 5px;
-	transition: all 0.3 ease-in-out;
-} 
-
-header .main-container .content-box h3{
+header .main-container .dish-box h3{
 	font-size: 16pt;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 900;
 	color: #8B5253;
 	padding-top: 30px;
-	text-align: center;
+	text-align: left;
 } 
 
-header .main-container .content-box p a{
+header .main-container .dish-box p a{
 	font-size: 12pt;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 900;
 	color: #435AD3;
 	padding-top: 20px;
+	text-align: left;
 } 
 
-header .main-container .content-box p{
-	width: 370px;
+header .main-container .dish-box p{
 	font-size: 16px;
 	padding-top: 5px;
 	overflow-wrap: break-word;
-	text-align: center;
+	text-align: left;
 	transition: all 0.3 ease-in-out;
 	color: #6B6B6B;
 } 
 
-header .main-container .content-box button{
+header .main-container .dish-box button{
 	width: 165px;
 	padding: 8px 10px;
 	border-radius: 15px; 
@@ -173,7 +161,7 @@ header .main-container .content-box button{
 	margin-bottom: 110px;
 } 
 
-header .main-container .content-box button:hover{
+header .main-container .dish-box button:hover{
 	color: #FFFFFF;
 	background: #C75509;
 	font-weight: bold;
